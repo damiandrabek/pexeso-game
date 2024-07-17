@@ -78,7 +78,7 @@ function App() {
   }, [cards, pickOne, pickTwo]);
 
   // If player has found all matches, handle accordingly
-  useEffect(() => {
+  useEffect(() => { 
 
     // Check for any remaining card matches
     const checkWin = cards.filter((card) => !card.matched);
