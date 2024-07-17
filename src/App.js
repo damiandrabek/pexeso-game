@@ -92,7 +92,7 @@ function App() {
       setCards(shuffle);
     }
 
-  }, [cards, wins]);
+  }, [cards, wins, setBadge]);
 
 
   return (
