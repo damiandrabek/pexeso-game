@@ -7,7 +7,7 @@ const Header = ({handleNewGame, wins}) => {
     return (
         <header>
             <h4>{wins} wins</h4>
-            <h3>Neger</h3>
+            <h3>Pexeso</h3>
             <button onClick={handleNewGame}>New Game</button>
         </header>
     );
