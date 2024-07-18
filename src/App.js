@@ -87,6 +87,12 @@ function App() {
     if (cards.length && checkWin.length < 1) {
       console.log("You've just won!");
       setWins(wins + 1);
+      return (
+        <h1 id='wonTitle'>You've just won!</h1>
+      )
+      setTimeout(() => {
+        document.getElementById("wonTitle").remove()
+      }, 1000)
       handleTurn();
       setBadge();
       setCards(shuffle);
